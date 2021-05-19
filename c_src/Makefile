@@ -97,11 +97,9 @@ endif
 CFLAGS += -I"$(ERTS_INCLUDE_DIR)" -I"$(ERL_INTERFACE_INCLUDE_DIR)"
 CXXFLAGS += -I"$(ERTS_INCLUDE_DIR)" -I"$(ERL_INTERFACE_INCLUDE_DIR)"
 
-LDLIBS += -L"$(ERL_INTERFACE_LIB_DIR)" -lerl_interface -lei
-
 # Dependencies.
 
-ALL_DEPS_OUTPUT ?= 
+ALL_DEPS_OUTPUT ?=
 
 # Verbosity.
 
